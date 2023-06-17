@@ -1,0 +1,72 @@
+body{
+    background-color: #E5E5E5;
+    color: #434455;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+}
+
+
+header{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header ul{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+address{
+    color: #434455;
+}
+
+h3{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+header a{
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.link a:active{
+    color: #404BBF;
+}
+
+ .web {
+    text-transform: uppercase;
+ }
+
+li button{
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    font-weight: 700;
+}
+
+.filters li button:active{
+    background: #F4F4FD;
+    color: #2E2F42;
+    text-decoration: underline;
+}
+
+.filters li button:hover{
+    background: #404BBF;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
