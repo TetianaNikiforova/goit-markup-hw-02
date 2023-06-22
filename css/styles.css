@@ -14,10 +14,16 @@ header{
     font-size: 16px;
 }
 
+.list{
+    list-style: none;
+
+}
+
 header ul{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.02em;
 
 }
 
@@ -29,11 +35,12 @@ address{
     color: #434455;
 }
 
-h3{
-    color: #2E2F42;
+.zag{
+    color:var(--#2E2F42--);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 header a{
@@ -42,19 +49,20 @@ header a{
 }
 
 
-.logo{
-  font-family: "Ralewey", sans-serif;
+.log{
+  font-family: 'Ralewey', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color:var(--#4d5ae5--);
+  background-color: var(--#F4F4FD--);
 
 }
 
 .stud{
-    color: #2E2F42;
+    color:var(--#2E2F42--);
 }
 
 .menu{
@@ -88,6 +96,7 @@ header a{
     color: var(--#4d5ae5--);
     background-color: var(--#F4F4FD--);
     cursor: pointer;
+    list-style: none;
 
 }
 
@@ -101,4 +110,31 @@ header a{
     background: #404BBF;
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+.list li button:focus{
+    background-color: #404BBF;
+
+}
+
+.par{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--#434455--);
+}
+
+.list .link{
+    text-decoration: none;
+}
+
+.fut{
+    background: var(--navyblue, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--);
 }
