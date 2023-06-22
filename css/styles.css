@@ -2,6 +2,8 @@
     font-family: "Roboto", "Ralewey" sans-serif;
     src: url("https://fonts.googleapis.com");
     src: url("https://fonts.gstatic.com");
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+    src: url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
 }
 
 body {
@@ -13,18 +15,38 @@ body {
 }
 
 :root{
-
-    background-color: #FFF;
-}
-header{
-    font-weight: 500;
-    font-size: 16px;
+   background-color: #FFF;
 }
 
-.list{
+
+.menu .list{
     list-style: none;
 
 }
+
+header a {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+
+.web_1 .log{
+  font-family: 'Ralewey', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--#4d5ae5);
+
+
+}
+
+
+.web_1 .link{
+    text-decoration: none;
+}
+
 
 header ul{
     color: #2E2F42;
@@ -51,28 +73,6 @@ address{
     letter-spacing: 0.02em;
 }
 
-header a{
-    color: #2E2F42;
-    text-decoration: none;
-}
-
-
-.web .log{
-  font-family: 'Ralewey', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--#4d5ae5);
-
-
-}
-
-
-.web .link{
-    text-decoration: none;
-}
 
 .fut .log{
     font-family: "Ralewey", sans-serif;
@@ -88,7 +88,7 @@ header a{
     text-decoration: none;
 }
 
-.stud{
+.stu{
     color:var(--#F4F4FD);
 }
 
