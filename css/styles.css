@@ -3,7 +3,7 @@ body{
     color: #434455;
     font-size: 14px;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 :root{
@@ -43,7 +43,7 @@ header a{
 
 
 .logo{
-  font-family: 'Ralewey', sans-serif;
+  font-family: "Ralewey", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 18px;
@@ -58,7 +58,7 @@ header a{
 }
 
 .menu{
-    
+
 }
 
 .menu a:hover{
@@ -80,7 +80,7 @@ header a{
 }
 
 .but{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
