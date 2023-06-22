@@ -41,33 +41,63 @@ header a{
     text-decoration: none;
 }
 
-.link a:hover{
+
+.logo{
+  font-family: 'Ralewey', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+
+}
+
+.stud{
+    color: #2E2F42;
+}
+
+.menu{
+    
+}
+
+.menu a:hover{
     color: #404BBF;
     text-decoration: underline;
 }
 
-.link a:active{
+.menu a:active{
     color: #404BBF;
 }
 
- .web{
-    text-transform: uppercase;
- }
 
-li button{
+ ul>li button{
     background-color: #E7E9FC;
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
     font-weight: 700;
+    list-style: none;
 }
 
-.filters li button:active{
+.but{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--#4d5ae5--);
+    background-color: var(--#F4F4FD--);
+    cursor: pointer;
+
+}
+
+.list li button:active{
     background: #F4F4FD;
     color: #2E2F42;
     text-decoration: underline;
 }
 
-.filters li button:hover{
+.list li button:hover{
     background: #404BBF;
     color: #FFFFFF;
     text-decoration: underline;
