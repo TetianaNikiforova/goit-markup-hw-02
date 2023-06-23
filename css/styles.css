@@ -30,7 +30,7 @@ header a {
 }
 
 
-.web_1 .log{
+.log{
   font-family: 'Ralewey', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,8 +41,9 @@ header a {
 }
 
 
-.web_1 .link{
+.link{
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -101,7 +102,7 @@ header a {
     background: #FFF;
 }
 
-.zag2{
+.namb{
     font-size: 36px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -112,7 +113,7 @@ header a {
     text-transform: capitalize;
 }
 
-.zag3{
+.star{
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -142,9 +143,19 @@ ul{
     list-style-type: none;
 }
 
-address{
-    color: #434455;
+.address{
+    color: var(--slate, #434455);
+    font-style: normal;
 }
+
+.address a:hover{
+    color: #404bbf;
+}
+
+.address a:focus{
+    color: #404bbf;
+}
+
 
 .zag{
     color:var(--#2E2F42);
@@ -152,6 +163,7 @@ address{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    background: var(--white, #FFF);
 }
 
 
@@ -224,6 +236,7 @@ address{
 
 .list li button:focus{
     background-color: #404BBF;
+    color: #FFFFFF;
 
 }
 
@@ -235,7 +248,7 @@ address{
     color:var(--slate, #434455);
 }
 
-.list .link{
+.link{
     text-decoration: none;
 }
 
@@ -246,5 +259,19 @@ address{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--cloud, #F4F4FD);
+    text-decoration: none;
+}
+
+.fut .stu{
+    color: var(--cloud, #F4F4FD);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.end{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--cloud, #F4F4FD);
 }
