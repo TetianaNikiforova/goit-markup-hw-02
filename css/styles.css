@@ -37,7 +37,7 @@ header a {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--#4d5ae5);
+  color: var(--iris, #4D5AE5);
 
 
 }
@@ -45,6 +45,82 @@ header a {
 
 .web_1 .link{
     text-decoration: none;
+}
+
+
+.effec{
+    background: var(--navyblue, #2E2F42);
+    text-align: center;
+}
+
+.sol{   
+    font-size: 56px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white, #FFF);
+
+}
+
+
+.order{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.effec button:hover{
+    background: var(--iris, #4D5AE5);
+}
+
+.effec button:focus{
+    background: var(--ocean, #404BBF);
+}
+
+.feature{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
+}
+
+.feature p{
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+.monit{
+    background: #FFF;
+}
+
+.zag2{
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.zag3{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
 }
 
 
@@ -89,7 +165,7 @@ address{
 }
 
 .stu{
-    color:var(--#F4F4FD);
+    color: var(--navyblue, #2E2F42);
 }
 
 
@@ -160,5 +236,5 @@ address{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--);
+    color: var(--cloud, #F4F4FD);
 }
