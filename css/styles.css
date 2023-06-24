@@ -8,14 +8,14 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color:var(--primary-body-color);
+    background-color: var(--white-color);
     color: #434455;
     font-size: 14px;
     line-height: 1.5;
 }
 
 :root{
-   --primary-body-color: #FFFFFF;
+   --white-color: #FFFFFF;
 }
 
 
