@@ -15,7 +15,7 @@ body {
 }
 
 :root{
-   --primary-body-color: var(--white,#FFFFFF);
+   --primary-body-color: #FFFFFF;
 }
 
 
