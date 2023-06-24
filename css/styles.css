@@ -15,7 +15,7 @@ body {
 }
 
 :root{
-   background-color: #FFF;
+   --body--background-color:var(--white,#FFFFFF);
 }
 
 
@@ -31,7 +31,7 @@ header a {
 
 
 .log{
-  font-family: "Ralewey", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -146,6 +146,7 @@ ul{
 .address{
     color: var(--slate, #434455);
     font-style: normal;
+    list-style: none;
 }
 
 .address a:hover{
@@ -167,8 +168,8 @@ ul{
 }
 
 
-.fut .log{
-    font-family: 'Ralewey', sans-serif;
+.footer .log{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -181,7 +182,7 @@ ul{
     text-decoration: none;
 }
 
-.stu{
+.stud{
     color: var(--navyblue, #2E2F42);
 }
 
@@ -250,9 +251,10 @@ ul{
 
 .link{
     text-decoration: none;
+    list-style: none;
 }
 
-.fut{
+.footer{
     background: var(--navyblue, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -263,14 +265,16 @@ ul{
     text-decoration: none;
 }
 
-.fut .stu{
+.footer .stud{
     color: var(--cloud, #F4F4FD);
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.end{
+.footer-text{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud, #F4F4FD);
