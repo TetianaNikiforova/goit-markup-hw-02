@@ -176,6 +176,7 @@ ul{
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--ocean,#4d5ae5);
+    text-decoration: none;
 }
 
 .link{
@@ -274,7 +275,7 @@ ul{
 
 .footer-text{
     font-size: 16px;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud, #F4F4FD);
