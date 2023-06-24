@@ -1,11 +1,3 @@
-@font-face{
-    font-family: "Roboto", "Ralewey" sans-serif;
-    src: url("https://fonts.googleapis.com");
-    src: url("https://fonts.gstatic.com");
-    src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
-    src: url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
-}
-
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--white-color);
@@ -16,6 +8,8 @@ body {
 
 :root{
    --white-color: #FFFFFF;
+   --navyblue-color: #2E2F42;
+   --slate-color: #434455;
 }
 
 
@@ -34,7 +28,15 @@ header a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue-color);
+}
+
+.navig{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
 }
 
 
@@ -165,7 +167,7 @@ ul{
 }
 
 .address{
-    color: var(--slate, #434455);
+    color: var(--slate-color);
     font-style: normal;
     list-style: none;
 }
