@@ -8,18 +8,18 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color:var(--white,#FFFFFF);
+    background-color:var(--primary-body-color);
     color: #434455;
     font-size: 14px;
     line-height: 1.5;
 }
 
 :root{
-   --body--background-color:var(--white,#FFFFFF);
+   --primary-body-color: var(--white,#FFFFFF);
 }
 
 
-.menu .list{
+.list{
     list-style: none;
 
 }
@@ -29,6 +29,28 @@ header a {
     text-decoration: none;
 }
 
+.menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42);
+}
+
+
+.menu a:hover{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.menu a:focus{
+     color: #404bbf;
+}
+
+
+.menu a:active{
+    color: #404BBF;
+}
 
 .log{
   font-family: "Raleway", sans-serif;
@@ -43,7 +65,6 @@ header a {
 
 .link{
     text-decoration: none;
-    list-style: none;
 }
 
 
@@ -187,20 +208,6 @@ ul{
     color: var(--navyblue, #2E2F42);
 }
 
-
-.menu a:hover{
-    color: #404BBF;
-    text-decoration: underline;
-}
-
-.menu a:focus{
-     color: #404bbf;
-}
-
-
-.menu a:active{
-    color: #404BBF;
-}
 
 
  ul>li button{
