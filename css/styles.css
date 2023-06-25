@@ -114,7 +114,7 @@ header a {
 }
 
 .parag{
-    color: var(--slate, #434455);
+    color: var(--slate-color);
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -180,6 +180,9 @@ ul{
     color: #404bbf;
 }
 
+.contacts{
+    color: var(--slate-color);
+}
 
 .zag{
     color:var(--navyblue, #2E2F42);
