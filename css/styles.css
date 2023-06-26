@@ -1,9 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
     background-color: var(--white-color);
-    color: #434455;
-    font-size: 14px;
-    line-height: 1.5;
 }
 
 :root{
@@ -12,24 +8,14 @@ body {
    --slate-color: #434455;
 }
 
-
 .list{
     list-style: none;
-
 }
 
-header a {
-    color: #2E2F42;
+.link{
     text-decoration: none;
 }
 
-.menu{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
-}
 
 .navig{
     font-weight: 500;
@@ -39,10 +25,8 @@ header a {
     color: var(--navyblue-color);
 }
 
-
 .menu a:hover{
     color: #404BBF;
-    text-decoration: underline;
 }
 
 .menu a:focus{
@@ -62,11 +46,6 @@ header a {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--iris, #4D5AE5);
-}
-
-
-.link{
-    text-decoration: none;
 }
 
 
@@ -116,6 +95,7 @@ header a {
 .parag{
     color: var(--slate-color);
     font-size: 16px;
+    font-weight: 400;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em; 
@@ -153,22 +133,11 @@ header a {
     background-color: #FFFFFF;
 }
 
-header ul{
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-
-}
-
-
 ul{
     list-style-type: none;
 }
 
 .address{
-    color: var(--slate-color);
-    font-style: normal;
     list-style: none;
 }
 
@@ -181,10 +150,12 @@ ul{
 }
 
 .contacts{
+    font-style: normal;
+    font-weight: 400;
     color: var(--slate-color);
 }
 
-.zag{
+.title-text{
     color:var(--navyblue, #2E2F42);
     font-weight: 500;
     font-size: 20px;
@@ -203,6 +174,28 @@ ul{
     letter-spacing: 0.03em;
     color: var(--ocean,#4d5ae5);
     text-decoration: none;
+}
+
+.footer{
+    background: var(--navyblue, #2E2F42);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer .stud{
+    color: var(--cloud, #F4F4FD);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud, #F4F4FD);
 }
 
 .link{
@@ -265,30 +258,4 @@ ul{
 .link{
     text-decoration: none;
     list-style: none;
-}
-
-.footer{
-    background: var(--navyblue, #2E2F42);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--cloud, #F4F4FD);
-    text-decoration: none;
-}
-
-.footer .stud{
-    color: var(--cloud, #F4F4FD);
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.footer-text{
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--cloud, #F4F4FD);
 }
