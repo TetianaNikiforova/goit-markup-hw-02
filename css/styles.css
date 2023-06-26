@@ -1,5 +1,7 @@
 body {
     background-color: var(--white-color);
+    font-family: "Roboto", sans-serif;
+    color: var(--slate-color);
 }
 
 :root{
@@ -139,6 +141,7 @@ ul{
 
 .address{
     list-style: none;
+    font-style: normal;
 }
 
 .address a:hover{
@@ -150,7 +153,9 @@ ul{
 }
 
 .contacts{
-    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-weight: 400;
     color: var(--slate-color);
 }
@@ -196,10 +201,6 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud, #F4F4FD);
-}
-
-.link{
-    text-decoration: none;
 }
 
 .stud{
@@ -253,9 +254,4 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate, #434455);
-}
-
-.link{
-    text-decoration: none;
-    list-style: none;
 }
